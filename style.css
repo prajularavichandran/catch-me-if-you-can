@@ -71,7 +71,8 @@ p{
 
 .green-box:hover{
     position: relative;
-    right: 80%;
+    left: 50px;
+    top:150px;
 }
 
 
