@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+section{
+    width: 200px;
+    height: 200px;
+    text-align: center
+}
+
+p{
+    padding-top: 40%;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+
+.red-box{
+    height: 200px;
+    background-color: red;
+    color: white;
+    cursor: grab;
+}
+
+.red-box:hover{
+    position: relative;
+    transition: 5s;
+    left: 300px;
+    top: 200px;
+}
+
+.blue-box {
+    background-color: blue;
+    color: white;
+    cursor: grab;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.blue-box:hover{
+    position: relative;
+    left: 100px;
+    top: 200px;
+}
+
+.yellow-box{
+    background-color: yellow;
+    color: black;
+    cursor: grab;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.yellow-box:hover{
+    position: relative;
+    bottom: 300px;
+    left: 500px;
+}
+
+.green-box{
+    background-color: green;
+    color: white;
+    cursor: grab;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.green-box:hover{
+    position: relative;
+    right: 80%;
+}
+
+
